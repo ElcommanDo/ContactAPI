@@ -1,5 +1,6 @@
 from rest_framework import serializers
 from django.contrib.auth.models import User
+from .models import Contact
 
 
 class UserSerializer(serializers.ModelSerializer):
@@ -16,3 +17,11 @@ class UserSerializer(serializers.ModelSerializer):
 
     def create(self, validated_data):
         return User.objects.create_user(**validated_data)
+
+
+class ContactSerializer(serializers.ModelSerializer):
+    owner = serializers.StringRelatedField(read_only=True)
+
+    class Meta:
+        model = Contact
+        fields = "__all__"

@@ -1,8 +1,9 @@
 from django.shortcuts import render
 from rest_framework import generics
-from .serializers import UserSerializer, User
+from .serializers import UserSerializer, ContactSerializer, User
+from .models import Contact
 from rest_framework.response import Response
-from rest_framework import status
+from rest_framework import status, viewsets
 from rest_framework. permissions import IsAuthenticated
 # Create your views here.
 
@@ -25,3 +26,17 @@ class UserApiView(generics.ListCreateAPIView):
                         'error': serializer.errors,
                         'status': status.HTTP_400_BAD_REQUEST}
             return Response(response)
+
+
+class ContactApiView(viewsets.ModelViewSet):
+    queryset = Contact.objects.all()
+    serializer_class = ContactSerializer
+    permission_classes = [IsAuthenticated]
+
+    def perform_create(self, serializer):
+            print(self.request.user)
+            serializer.save(owner=self.request.user)
+
+    def get_queryset(self):
+        return Contact.objects.filter(owner=self.request.user)
+
