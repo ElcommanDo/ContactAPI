@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6e182dea-32b5-4c2e-ad95-8572dbbc01fd" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/proj/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/proj/settings.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/drf-yasg/redoc/redoc.standalone.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -12,14 +13,23 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/proj/settings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="488">
-              <caret line="145" column="28" selection-start-line="145" selection-start-column="28" selection-end-line="145" selection-end-column="28" />
+            <state relative-caret-position="513">
+              <caret line="146" column="28" selection-start-line="146" selection-start-column="28" selection-end-line="146" selection-end-column="28" />
               <folding>
                 <element signature="e#305#329#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/staticfiles/drf-yasg/redoc/redoc.standalone.js.map">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="2954493" selection-start-column="2954493" selection-end-column="2954493" />
             </state>
           </provider>
         </entry>
@@ -118,6 +128,7 @@
         <option value="$PROJECT_DIR$/proj/procfile" />
         <option value="$PROJECT_DIR$/proj/pipfile" />
         <option value="$PROJECT_DIR$/proj/settings.py" />
+        <option value="$PROJECT_DIR$/staticfiles/drf-yasg/redoc/redoc.standalone.js.map" />
       </list>
     </option>
   </component>
@@ -154,6 +165,24 @@
               <item name="ContactAPI" type="b2602c69:ProjectViewProjectNode" />
               <item name="ContactAPI" type="462c0819:PsiDirectoryNode" />
               <item name="proj" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ContactAPI" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ContactAPI" type="462c0819:PsiDirectoryNode" />
+              <item name="staticfiles" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ContactAPI" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ContactAPI" type="462c0819:PsiDirectoryNode" />
+              <item name="staticfiles" type="462c0819:PsiDirectoryNode" />
+              <item name="drf-yasg" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ContactAPI" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ContactAPI" type="462c0819:PsiDirectoryNode" />
+              <item name="staticfiles" type="462c0819:PsiDirectoryNode" />
+              <item name="drf-yasg" type="462c0819:PsiDirectoryNode" />
+              <item name="redoc" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -292,11 +321,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/proj/settings.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="488">
-          <caret line="145" column="28" selection-start-line="145" selection-start-column="28" selection-end-line="145" selection-end-column="28" />
+        <state relative-caret-position="513">
+          <caret line="146" column="28" selection-start-line="146" selection-start-column="28" selection-end-line="146" selection-end-column="28" />
           <folding>
             <element signature="e#305#329#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/staticfiles/drf-yasg/redoc/redoc.standalone.js.map">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="2954493" selection-start-column="2954493" selection-end-column="2954493" />
         </state>
       </provider>
     </entry>
