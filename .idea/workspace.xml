@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6e182dea-32b5-4c2e-ad95-8572dbbc01fd" name="Default Changelist" comment="" />
+    <list default="true" id="6e182dea-32b5-4c2e-ad95-8572dbbc01fd" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/proj/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/proj/settings.py" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -14,7 +16,7 @@
         <entry file="file://$PROJECT_DIR$/proj/settings.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="513">
-              <caret line="144" selection-start-line="144" selection-end-line="144" />
+              <caret line="144" column="79" selection-start-line="144" selection-start-column="79" selection-end-line="144" selection-end-column="79" />
               <folding>
                 <element signature="e#305#329#0" expanded="true" />
               </folding>
@@ -113,9 +115,9 @@
         <option value="$PROJECT_DIR$/proj/urls.py" />
         <option value="$PROJECT_DIR$/contacts/views.py" />
         <option value="$PROJECT_DIR$/contacts/urls.py" />
-        <option value="$PROJECT_DIR$/proj/settings.py" />
         <option value="$PROJECT_DIR$/proj/procfile" />
         <option value="$PROJECT_DIR$/proj/pipfile" />
+        <option value="$PROJECT_DIR$/proj/settings.py" />
       </list>
     </option>
   </component>
@@ -291,7 +293,7 @@
     <entry file="file://$PROJECT_DIR$/proj/settings.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="513">
-          <caret line="144" selection-start-line="144" selection-end-line="144" />
+          <caret line="144" column="79" selection-start-line="144" selection-start-column="79" selection-end-line="144" selection-end-column="79" />
           <folding>
             <element signature="e#305#329#0" expanded="true" />
           </folding>
